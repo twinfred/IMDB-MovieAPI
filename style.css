@@ -1,0 +1,64 @@
+body {
+    background-color: #eaeaea;
+}
+#wrapper {
+    width: 1000px;
+    margin: 0px auto;
+    padding: 10px;
+    background-color: white;
+}
+/* FONTS */
+h1, h2, h3, h4, h5, h6, button, table, tbody, thead, tr, th, td, div, span, a, input, textarea {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #2e2e2e;
+}
+/* POKEDEX */
+#pokedex {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 230px;
+    padding: 15px;
+    background-color: #89061c;
+    text-align: center;
+}
+h1 {
+    color: white;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+p {
+    color: white;
+    font-size: 16px;
+    margin-bottom: 8px;
+    font-style: italic;
+}
+#aboutPokemon {
+    width: 100%;
+    height: 136px;
+    padding: 5px;
+    background-color: white;
+}
+/* SPECIFIC CLASSES */
+.borderBox {
+    box-sizing: border-box;
+}
+.textCenter {
+    text-align: center;
+}
+.bottomBorder {
+    border-bottom: 1px solid #2e2e2e
+}
+.inBlock {
+    display: inline-block;
+}
+.verTop {
+    vertical-align: top;
+}
+.italic {
+    font-style: italic;
+}
+.block {
+    display: block;
+}
