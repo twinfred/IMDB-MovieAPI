@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Pokemone Pokedex API</title>
+    <title>IMDb Movie Search - Using API</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="script.js"></script>
     <link rel="stylesheet" href="reset.css">
@@ -10,17 +10,15 @@
   </head>
   <body>
       <div id="wrapper" class="borderBox">
-      </div>
-      <div id="pokedex" class="borderBox">
-        <h1 class="borderBox">Welcome to the Pokedex</h1>
-        <p>Click an image of a Pokemon above to see its stats.</p>
-        <div id="aboutPokemon" class="borderBox">
-          <div id="pokeName"></div>
-          <div id="pokePicture"></div>
-          <div id="pokeTypes"></div>
-          <div id="pokeHeight"></div>
-          <div id="pokeWeight"></div>
-      </div>
+        <div id="searchBox">
+          <p>Search Movie Name:</p>
+          <input type="text" id="movieName">
+          <button id="searchBtn">Search</button>
+        </div>
+        <div id="searchResults">
+          <div id="moviePoster"></div>
+          <div id="movieResults"></div>
+        </div>
       </div>
   </body>
 </html>

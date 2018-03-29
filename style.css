@@ -12,33 +12,56 @@ h1, h2, h3, h4, h5, h6, button, table, tbody, thead, tr, th, td, div, span, a, i
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #2e2e2e;
 }
-/* POKEDEX */
-#pokedex {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    height: 230px;
-    padding: 15px;
-    background-color: #89061c;
-    text-align: center;
-}
 h1 {
-    color: white;
-    font-size: 30px;
-    margin-bottom: 10px;
+    font-size: 26px;
+    line-height: 26px;
+    color: #2c5c93;
+    margin-top: 10px;
+}
+h2 {
+    font-size: 15px;
+    line-height: 22px;
+    margin-top: 10px;
+}
+h2:first-child {
+    margin-top: 20px;
 }
 p {
-    color: white;
-    font-size: 16px;
-    margin-bottom: 8px;
-    font-style: italic;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
 }
-#aboutPokemon {
-    width: 100%;
-    height: 136px;
-    padding: 5px;
-    background-color: white;
+/* MOVIE SEARCH */
+#searchBox {
+    display: block;
+    background-color: #2e2e2e;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+#movieResults {
+    display: inline-block;
+    padding-right: 10px;
+    width: 66.36%;
+    margin-left: 10px;
+    vertical-align: top;
+}
+#boxOffice {
+    color: green;
+}
+#moviePoster {
+    display: inline-block;
+    padding-right: 10px;
+    width: 30%;
+    vertical-align: top;
+}
+#movieSite {
+    margin-top: 20px;
+    background-color: #2e2e2e;
+    color: white;
+    width: 200px;
+    height: 40px;
+    font-size: 15px;
 }
 /* SPECIFIC CLASSES */
 .borderBox {
